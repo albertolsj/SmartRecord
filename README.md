@@ -15,8 +15,6 @@ Step 2: Install Required Libraries (Without Virtual Environment)
 
 Since we are not using a virtual environment, install the required libraries globally:
 
-sudo pip install opcua psutil RPi.GPIO
-
 If pip gives a "externally managed environment" error, run:
 
 sudo pip install opcua psutil RPi.GPIO sdnotify --break-system-packages
